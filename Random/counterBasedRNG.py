@@ -1,4 +1,4 @@
-import time 
+import time
 
 def squares(ctr, key):
     y = x = ctr * key
@@ -10,17 +10,18 @@ def squares(ctr, key):
     return (x*x + z) >> 32
 
 if __name__ == "__main__":
-    key = 0x548c9decbce65297
+    key = 0xfb9e125878fa6cb3
     two32 = 4294967296
-    n = 1000000000
+    n = 100000
     sum = 0
     print("Key: ", key)
-    print("two32: ", two32)
+    print("2^32: ", two32)
 
     start = time.time()
     for i in range(n):
+        #print("\nValor: ", squares(i, key))
         sum += (squares(i, key) // two32)
 
     end = time.time()
-    print("\nMedia: ", sum/n)
+    print("\nMedia: ", sum//n)
     print("\nTempo: ", end - start)
