@@ -61,8 +61,7 @@ N = 125; Tempo de Simulação = 0,091 segundos; (Intel Core i5-4690)
 ## Autores
 
 ### Desenvolvedores do código
-- Lucas José da Cunha
-- Luiz Alberto Zimmermann Zabel Martins Pinto
+- [![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/remarkablemark/html-react-parser/graphs/contributors)
           
 ### Autor do método
 
