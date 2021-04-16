@@ -62,8 +62,8 @@ N = 125; Tempo de Simulação = 0,091 segundos; (Intel Core i5-4690)
 
 ### Desenvolvedores do código
 
-[Lucas Jose da Cunha](https://github.com/Lucasgb7)
-[Luiz Alberto Zimmermann Zabel Martins Pinto](https://github.com/Luiz-Zimmermann)
+- [Lucas Jose da Cunha](https://github.com/Lucasgb7)
+- [Luiz Alberto Zimmermann Zabel Martins Pinto](https://github.com/Luiz-Zimmermann)
           
 ### Autor do método
 
