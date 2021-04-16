@@ -44,19 +44,22 @@ def squares(ctr, key):
 ## Resultados obtidos
 
 ![Grafico que gera cores através do range dos valores gerados](https://raw.githubusercontent.com/Lucasgb7/Simulacao_Discreta/main/Fast%20Counter-Based%20RNG/resultados/grafico1.png)
+
 N = 1048576; Tempo de Simulação = 703,27 segundos; (Intel Core i5-4690)
 
 ![Grafico que gera cores através do range dos valores gerados](https://raw.githubusercontent.com/Lucasgb7/Simulacao_Discreta/main/Fast%20Counter-Based%20RNG/resultados/grafico2.png)
+
 N = 16; Tempo de Simulação = 0,029 segundos; (Intel Core i5-4690)
 
 ![Grafico Scatter](https://raw.githubusercontent.com/Lucasgb7/Simulacao_Discreta/main/Fast%20Counter-Based%20RNG/resultados/grafico3.png)
+
 N = 125; Tempo de Simulação = 0,091 segundos; (Intel Core i5-4690)
 
-### Autores
+## Autores
 
 ### Desenvolvedores do código
-Alunos :  Lucas José da Cunha
-          Luiz Alberto Zimmermann Zabel Martins Pinto
+Alunos :  - Lucas José da Cunha
+          - Luiz Alberto Zimmermann Zabel Martins Pinto
           
 ### Autor do método
 
