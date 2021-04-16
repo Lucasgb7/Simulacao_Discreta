@@ -1,7 +1,7 @@
 ## Introdução
 
 - Proposto por Bernard Widynski em 2020. ([Squares: A Fast Counter-Based RNG](https://arxiv.org/abs/2004.06278))
-- Derivado do método: “Middle Square Weyl Sequence RNG”. [Squares: A Fast Counter-Based RNG](https://arxiv.org/abs/1704.00358))
+- Derivado do método: “Middle Square Weyl Sequence RNG”. ([Middle Square Weyl Sequence RNG](https://arxiv.org/abs/1704.00358))
 - Utiliza transformação middle-square de von Neummann.
 - Usa apenas 4 estados de “squaring”, diferentemente de Philox que utiliza 10.
 
@@ -43,13 +43,13 @@ def squares(ctr, key):
 
 ## Resultados obtidos
 
-![Grafico que gera cores através do range dos valores gerados](https://github.com/Lucasgb7/Simulacao_Discreta/tree/main/Fast%20Counter-Based%20RNG/resultados/grafico1.png?raw=true)
+![Grafico que gera cores através do range dos valores gerados](https://raw.githubusercontent.com/Lucasgb7/Simulacao_Discreta/main/Fast%20Counter-Based%20RNG/resultados/grafico1.png)
 N = 1048576; Tempo de Simulação = 703,27 segundos; (Intel Core i5-4690)
 
-![Grafico que gera cores através do range dos valores gerados](https://github.com/Lucasgb7/Simulacao_Discreta/tree/main/Fast%20Counter-Based%20RNG/resultados/grafico2.png?raw=true)
+![Grafico que gera cores através do range dos valores gerados](https://raw.githubusercontent.com/Lucasgb7/Simulacao_Discreta/main/Fast%20Counter-Based%20RNG/resultados/grafico2.png)
 N = 16; Tempo de Simulação = 0,029 segundos; (Intel Core i5-4690)
 
-![Grafico Scatter](https://github.com/Lucasgb7/Simulacao_Discreta/tree/main/Fast%20Counter-Based%20RNG/resultados/grafico3.png?raw=true)
+![Grafico Scatter](https://raw.githubusercontent.com/Lucasgb7/Simulacao_Discreta/main/Fast%20Counter-Based%20RNG/resultados/grafico3.png)
 N = 125; Tempo de Simulação = 0,091 segundos; (Intel Core i5-4690)
 
 ### Autores
@@ -60,4 +60,4 @@ Alunos :  Lucas José da Cunha
           
 ### Autor do método
 
-[ernard Widynski](https://arxiv.org/search/cs?searchtype=author&query=Widynski%2C+B)
+[Bernard Widynski](https://arxiv.org/search/cs?searchtype=author&query=Widynski%2C+B)
