@@ -61,8 +61,8 @@ N = 125; Tempo de Simulação = 0,091 segundos; (Intel Core i5-4690)
 ## Autores
 
 ### Desenvolvedores do código
-Alunos :  - Lucas José da Cunha
-          - Luiz Alberto Zimmermann Zabel Martins Pinto
+- Lucas José da Cunha
+- Luiz Alberto Zimmermann Zabel Martins Pinto
           
 ### Autor do método
 
