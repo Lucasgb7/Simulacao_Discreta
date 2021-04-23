@@ -39,7 +39,6 @@ def applyRule(largura, bits):
         colunaCentro.append(matriz[-1][largura // 2])  # atualiza o centro da matriz
 
     return [matriz, colunaCentro[-bits:]]
-    return {"matriz": matriz, "randomNumber":colunaCentro[-bits:]}
 
 def listToString(s): 
     # initialize an empty string
