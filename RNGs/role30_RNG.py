@@ -53,10 +53,12 @@ if __name__ == "__main__":
     seed = int(str(time.time_ns())[14:17])
     bits = 8
 
-
+    start = time.time()
     result = applyRule((seed+bits)*2, bits)
     matriz = result[0]
     rng = result[1]
+    end = time.time()
 
     # print("Matriz: ", matriz)
     print("RNG: ", rng)
+    print("Tempo de simulacao: ", end - start)
