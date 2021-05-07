@@ -17,8 +17,7 @@ if __name__ == "__main__":
     #iteracoes = 1000
 
     n = int(input("Número de iterações (n): "))
-    k = int(input("Número de categorias (k): "))
-    Fe = n / k       
+    k = int(input("Número de categorias (k): "))  
     results = []
     #start = time.time()
     for i in range(n):
