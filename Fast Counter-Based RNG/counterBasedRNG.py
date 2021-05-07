@@ -6,27 +6,20 @@ from matplotlib.colors import NoNorm
 
 def squares(ctr, key):
     y = x = ctr * key
-    print("y = x = ctr * key:", hex(y))
     z = y + key
-    print("z = y + key:", hex(z))
-    # Circular Shift
-    two5 = np.uint64(32) # 2^5
+    two5 = np.uint64(32)
     x = x * x + y; x = (x >> two5) | (x << two5)
-    print("1º Round:", hex(x))
     x = x * x + z; x = (x >> two5) | (x << two5)
-    print("2º Round:", hex(x))
     x = x * x + y; x = (x >> two5) | (x << two5)
-    print("3º Round:", hex(x))
 
-    print("4º Round:", hex((x*x + z) >> two5))
     return (x*x + z) >> two5    
-    
-def draw(i):
 
+
+def draw(i):
     nx = int(math.sqrt(i))
-    print("tamanho da imagem", nx)
+    #print("tamanho da imagem", nx)
     imagem = np.zeros((nx,nx), dtype=np.uint8)
-    print("tam: ", i)
+    #print("tam: ", i)
     p = 0
     ny = nx
     for i in range(nx):
@@ -40,32 +33,62 @@ def draw(i):
     return imagem
 
 if __name__ == "__main__":
-    np.seterr(all='ignore') # ignora erros de overflow, divisao/zero, underflow, etc...
-    key = np.uint64(0xfb9e125878fa6cb3)
-    n = np.uint64(input("Defina o numero de itera??es: "))
+    np.seterr(all='ignore')             # ignora erros de overflow, divisao/zero, underflow, etc...
+    key = np.uint64(0xf6235eca95b2c1e7)
+    n = np.uint64(input("Defina o numero de iteracoes: "))
     sum = np.uint64(0)
-    pixelvet = []
-    vetVal = []
+    #pixelvet = []
+    #vetVal = []
 
-    start = time.time()
+    waitedValues = np.arange(0, 1, 0.1, dtype=float)
+    waitedValue = int(input("Defina a frequencia esperada: "))
+    frequency = np.zeros(10)
+    #start = time.time()
     for i in range(n):
-        print("-------------------- i =", i, "--------------------")
+        # print("-------------------- i =", i, "--------------------")
         result = squares(np.uint64(i), key)
-        sum += result
-        print(result)
-        pixelvet.append(result)
-        vetVal.append(result)
-        
-        
+        result = result / (2**32)   # normaliza resultado de 32 bits
+        print("[", i, "]", result)
+
+        if result > 0.0 and result < 0.1:
+            frequency[0] +=1
+        elif result > 0.1 and result < 0.2:
+            frequency[1] +=1
+        elif result > 0.2 and result < 0.3:
+            frequency[2] +=1
+        elif result > 0.3 and result < 0.4:
+            frequency[3] +=1
+        elif result > 0.4 and result < 0.5:
+            frequency[4] +=1
+        elif result > 0.5 and result < 0.6:
+            frequency[5] +=1
+        elif result > 0.6 and result < 0.7:
+            frequency[6] +=1
+        elif result > 0.7 and result < 0.8:
+            frequency[7] +=1
+        elif result > 0.8 and result < 0.9:
+            frequency[8] +=1
+        elif result > 0.9 and result < 1.0:
+            frequency[9] +=1
+
+        #pixelvet.append(result)
+        #vetVal.append(result)
+    
+    x2 = 0
+    for i in range(10):
+        x2 += ((frequency[i] - waitedValue)**2)/waitedValue
        
     end = time.time()
     print("================= RESULTADOS =================")
-    print("Media: ", hex(sum//n))
-    print("Tempo de simulacao: ", end - start)
+    #print("Media: ", hex(sum//n))
+    #print("Tempo de simulacao: ", end - start)
     
     
-    
-    plt.figure("Gr?ficos",figsize=(15,12))
+    print("Frequencia: ", frequency)
+    print("X^2: ", x2)
+
+    '''
+    plt.figure("Graficos",figsize=(15,12))
     plt.subplot(211)
     imagem = draw(n)
     plt.imshow(imagem, aspect="auto", cmap='gray', vmin=0, vmax=255,norm=NoNorm())
@@ -74,3 +97,4 @@ if __name__ == "__main__":
     plt.plot(vetVal, 'ro')
     plt.grid(1)
     plt.show()
+    '''
