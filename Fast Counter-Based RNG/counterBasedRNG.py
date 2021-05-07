@@ -14,6 +14,15 @@ def squares(ctr, key):
 
     return (x*x + z) >> two5    
 
+def saveFrequency(frequency, interval, result):
+    for i in range(len(interval)):
+        if (i < len(interval)-1):
+            if result > interval[i] and result < interval[i+1]:
+                frequency[i] += 1
+            else:
+                continue
+        elif result > interval[i] and result < 1.0:
+            frequency[i] += 1
 
 def draw(i):
     nx = int(math.sqrt(i))
@@ -40,43 +49,22 @@ if __name__ == "__main__":
     #vetVal = []
 
     n = np.uint64(input("Número de iterações (n): "))
-    k = int(input("Frequência esperada (k): "))
-    waitedValues = np.arange(0, 1, 0.1, dtype=float)
-    frequency = np.zeros(10)
+    gl = int(input("Graus de liberdade (gl): "))
+    Fe = n / gl     # frequencia esperada
+    waitedValues = np.arange(0, 1, Fe/100, dtype=float)   # define intervalos
+    frequency = np.zeros(gl)                            # frequencia com base no GL
     #start = time.time()
     for i in range(n):
-        # print("-------------------- i =", i, "--------------------")
         result = squares(np.uint64(i), key)
-        result = result / (2**32)   # normaliza resultado de 32 bits
-        print("[", i, "]:", result)
-
-        if result > 0.0 and result < 0.1:
-            frequency[0] +=1
-        elif result > 0.1 and result < 0.2:
-            frequency[1] +=1
-        elif result > 0.2 and result < 0.3:
-            frequency[2] +=1
-        elif result > 0.3 and result < 0.4:
-            frequency[3] +=1
-        elif result > 0.4 and result < 0.5:
-            frequency[4] +=1
-        elif result > 0.5 and result < 0.6:
-            frequency[5] +=1
-        elif result > 0.6 and result < 0.7:
-            frequency[6] +=1
-        elif result > 0.7 and result < 0.8:
-            frequency[7] +=1
-        elif result > 0.8 and result < 0.9:
-            frequency[8] +=1
-        elif result > 0.9 and result < 1.0:
-            frequency[9] +=1
-
+        result = result / (2**32)           # normaliza resultado de 32 bits
+        #print("[", i, "]:", result)
+        saveFrequency(frequency, waitedValues, result)
         #pixelvet.append(result)
         #vetVal.append(result)
     
     x2 = 0
     for i in range(10):
-        x2 += ((frequency[i] - k)**2)/k
+        x2 += ((frequency[i] - Fe)**2)/Fe
        
     #end = time.time()
     print("================= RESULTADOS =================")
@@ -84,8 +72,8 @@ if __name__ == "__main__":
     #print("Tempo de simulacao: ", end - start)
     print("Frequencia: ", frequency)
     print("X^2: ", x2)
-    print("V = (k - 1) = ", k - 1)
-    print("Alpha = 0.05")
+    print("V =", gl - 1)
+    print("Probabilidade = 0.05")
 
     '''
     plt.figure("Graficos",figsize=(15,12))
