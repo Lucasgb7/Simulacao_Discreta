@@ -4,6 +4,8 @@ import math
 import matplotlib.pyplot as plt
 from matplotlib.colors import NoNorm
 
+import qi2
+
 def squares(ctr, key):
     y = x = ctr * key
     z = y + key
@@ -14,15 +16,6 @@ def squares(ctr, key):
 
     return (x*x + z) >> two5    
 
-def saveFrequency(frequency, interval, result):
-    for i in range(len(interval)):
-        if (i < len(interval)-1):
-            if result > interval[i] and result < interval[i+1]:
-                frequency[i] += 1
-            else:
-                continue
-        elif result > interval[i] and result < 1.0:
-            frequency[i] += 1
 
 def draw(i):
     nx = int(math.sqrt(i))
@@ -48,29 +41,27 @@ if __name__ == "__main__":
     #pixelvet = []
     #vetVal = []
 
-    n = np.uint64(input("Número de iterações (n): "))
+    n = np.uint64(input("N?mero de itera??es (n): "))
     gl = int(input("Graus de liberdade (gl): "))
-    Fe = n / gl     # frequencia esperada
-    waitedValues = np.arange(0, 1, Fe/100, dtype=float)   # define intervalos
-    frequency = np.zeros(gl)                            # frequencia com base no GL
+                     
+    results = []     
+    
     #start = time.time()
     for i in range(n):
         result = squares(np.uint64(i), key)
         result = result / (2**32)           # normaliza resultado de 32 bits
         #print("[", i, "]:", result)
-        saveFrequency(frequency, waitedValues, result)
+        results.append(result)
         #pixelvet.append(result)
         #vetVal.append(result)
     
-    x2 = 0
-    for i in range(10):
-        x2 += ((frequency[i] - Fe)**2)/Fe
-       
+    x2 = qi2.qi2Test(gl, n, results)
+ 
     #end = time.time()
     print("================= RESULTADOS =================")
     #print("Media: ", hex(sum//n))
     #print("Tempo de simulacao: ", end - start)
-    print("Frequencia: ", frequency)
+    
     print("X^2: ", x2)
     print("V =", gl - 1)
     print("Probabilidade = 0.05")
