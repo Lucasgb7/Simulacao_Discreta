@@ -1,5 +1,6 @@
 import numpy as np
 import time
+import qi2
 
 def wichmann(x, y, z):
     x = 171 * (x % 177) -  2 * (x / 177)
@@ -24,14 +25,24 @@ if __name__ == "__main__":
     x = 1234
     y = x + 1
     z = y + 1
-    iteracoes = 1000
+    #iteracoes = 1000
 
-    start = time.time()
-    for i in range(iteracoes):
+    n = int(input("Número de iterações (n): "))
+    k = int(input("Número de categorias (k): "))   
+    results = []
+    #start = time.time()
+    for i in range(n):
         w = wichmann(x, y, z)
         y += 1
         z += 2
         print("w(", i, ") = ", y)
+        results.append(w)
+
+    #end = time.time()
+    x2 = qi2.qi2Test(k, n, results)
          
-    end = time.time()
-    print("Tempo de simulacao: ", end - start)
+    print("================= RESULTADOS =================")
+    #print("Tempo de simulacao: ", end - start)
+    print("X²: ", x2)
+    print("Graus de Liberdade (GL):", k - 1)
+    print("Significância: 0.05")
