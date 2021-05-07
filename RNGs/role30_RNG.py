@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import time
+import qi2
 
 # left XOR entre o cara do centro e da direita
 def rule(array):
@@ -53,12 +54,25 @@ if __name__ == "__main__":
     seed = int(str(time.time_ns())[14:17])
     bits = 8
 
-    start = time.time()
-    result = applyRule((seed+bits)*2, bits)
-    matriz = result[0]
-    rng = result[1]
-    end = time.time()
+    #start = time.time()
+    n = int(input("Número de iterações (n): "))
+    k = int(input("Número de categorias (k): "))  
+    results = []
+    for i in range(n):
+        time.sleep(1)
+        result = applyRule((seed+bits)*2, bits)
+        rng = listToString(result[1])
+        rng = int(listToString(rng), 2)
+        print(rng)
+        results.append(rng)
 
-    # print("Matriz: ", matriz)
-    print("RNG: ", rng)
-    print("Tempo de simulacao: ", end - start)
+    #end = time.time()
+    '''
+    x2 = qi2.qi2Test(k, n, results)
+
+    print("================= RESULTADOS =================")
+    #print("Tempo de simulacao: ", end - start)
+    print("X²: ", x2)
+    print("Graus de Liberdade (GL):", k - 1)
+    print("Significância: 0.05")
+    '''
