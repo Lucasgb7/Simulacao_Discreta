@@ -35,20 +35,20 @@ def draw(i):
 if __name__ == "__main__":
     np.seterr(all='ignore')             # ignora erros de overflow, divisao/zero, underflow, etc...
     key = np.uint64(0xf6235eca95b2c1e7)
-    n = np.uint64(input("Defina o numero de iteracoes: "))
-    sum = np.uint64(0)
+    #sum = np.uint64(0)
     #pixelvet = []
     #vetVal = []
 
+    n = np.uint64(input("Número de iterações (n): "))
+    k = int(input("Frequência esperada (k): "))
     waitedValues = np.arange(0, 1, 0.1, dtype=float)
-    waitedValue = int(input("Defina a frequencia esperada: "))
     frequency = np.zeros(10)
     #start = time.time()
     for i in range(n):
         # print("-------------------- i =", i, "--------------------")
         result = squares(np.uint64(i), key)
         result = result / (2**32)   # normaliza resultado de 32 bits
-        print("[", i, "]", result)
+        print("[", i, "]:", result)
 
         if result > 0.0 and result < 0.1:
             frequency[0] +=1
@@ -76,16 +76,16 @@ if __name__ == "__main__":
     
     x2 = 0
     for i in range(10):
-        x2 += ((frequency[i] - waitedValue)**2)/waitedValue
+        x2 += ((frequency[i] - k)**2)/k
        
-    end = time.time()
+    #end = time.time()
     print("================= RESULTADOS =================")
     #print("Media: ", hex(sum//n))
     #print("Tempo de simulacao: ", end - start)
-    
-    
     print("Frequencia: ", frequency)
     print("X^2: ", x2)
+    print("V = (k - 1) = ", k - 1)
+    print("Alpha = 0.05")
 
     '''
     plt.figure("Graficos",figsize=(15,12))
