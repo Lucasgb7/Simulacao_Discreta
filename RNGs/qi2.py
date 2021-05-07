@@ -1,11 +1,10 @@
 import numpy as np
 
-def qi2Test(gl, n, results):
+def qi2Test(k, n, results):
 
-    Fe = n / gl     # frequencia esperada
+    Fe = n / k     # frequencia esperada
     intervals = np.arange(0, 1, Fe/n, dtype=float)   # define intervalos
-    frequency = np.zeros(gl) 
-    
+    frequency = np.zeros(k) 
     
     for value in results:
         for i in range(len(intervals)):
@@ -20,7 +19,7 @@ def qi2Test(gl, n, results):
     print("Frequencia: ", frequency)
     
     x2 = 0
-    for i in range(gl):
+    for i in range(k):
         x2 += ((frequency[i] - Fe)**2)/Fe
         
     return x2
