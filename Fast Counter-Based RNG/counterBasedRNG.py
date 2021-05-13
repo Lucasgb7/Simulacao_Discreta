@@ -55,7 +55,8 @@ if __name__ == "__main__":
         #pixelvet.append(result)
         #vetVal.append(result)
     
-    x2 = qi2.qi2Test(gl, n, results)
+    x2, intervals = qi2.qi2Test(gl, n, results)
+
  
     #end = time.time()
     print("================= RESULTADOS =================")
@@ -66,6 +67,7 @@ if __name__ == "__main__":
     print("V =", gl - 1)
     print("Probabilidade = 0.05")
 
+    qi2.histGraph(results, intervals)
     '''
     plt.figure("Graficos",figsize=(15,12))
     plt.subplot(211)
