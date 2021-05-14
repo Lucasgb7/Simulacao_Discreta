@@ -27,8 +27,10 @@ if __name__ == "__main__":
     z = y + 1
     #iteracoes = 1000
 
-    n = int(input("Número de iterações (n): "))
-    k = int(input("Número de categorias (k): "))   
+    n = np.uint64(input("Numero de iteracoes (n): "))
+    k = int(input("Numero de categorias (k): "))
+    gl = k - 1; print("Grau de Liberdade (GL): ", gl)
+    p = float(input("Probabilidade de sucesso: ")) 
     results = []
     #start = time.time()
     for i in range(n):
@@ -39,10 +41,11 @@ if __name__ == "__main__":
         results.append(w)
 
     #end = time.time()
-    x2 = qi2.qi2Test(k, n, results)
+    x2, intervals = qi2.qi2Test(k, n, results)
          
     print("================= RESULTADOS =================")
     #print("Tempo de simulacao: ", end - start)
-    print("X²: ", x2)
-    print("Graus de Liberdade (GL):", k - 1)
-    print("Significância: 0.05")
+    pIndex = qi2.getProbabilityIndex(p)
+    x2Max = qi2.table[gl-1][pIndex]
+    print("x2Max: ", x2Max)
+    print("x2:" , x2)
