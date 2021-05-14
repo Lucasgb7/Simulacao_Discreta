@@ -41,8 +41,8 @@ if __name__ == "__main__":
     #pixelvet = []
     #vetVal = []
 
-    n = np.uint64(input("N?mero de itera??es (n): "))
-    gl = int(input("Graus de liberdade (gl): "))
+    n = np.uint64(input("Numero de iteracoes (n): "))
+    k = int(input("Numero de categorias (k): "))
                      
     results = []     
     
@@ -55,7 +55,7 @@ if __name__ == "__main__":
         #pixelvet.append(result)
         #vetVal.append(result)
     
-    x2, intervals = qi2.qi2Test(gl, n, results)
+    x2, intervals = qi2.qi2Test(k, n, results)
 
 
     #end = time.time()
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     #print("Tempo de simulacao: ", end - start)
     
     print("X^2: ", x2)
-    print("V =", gl - 1)
+    print("GL =", k - 1)
     print("Probabilidade = 0.05")
 
     qi2.histGraph(results, intervals)
