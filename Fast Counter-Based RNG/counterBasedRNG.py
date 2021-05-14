@@ -57,7 +57,7 @@ if __name__ == "__main__":
     
     x2, intervals = qi2.qi2Test(gl, n, results)
 
- 
+
     #end = time.time()
     print("================= RESULTADOS =================")
     #print("Media: ", hex(sum//n))

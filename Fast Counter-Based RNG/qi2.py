@@ -4,9 +4,10 @@ import matplotlib.pyplot as plt
 def qi2Test(k, n, results):
 
     Fe = n / k # frequencia esperada
-    intervals = np.arange(0, 1, Fe/n, dtype=float)  # define intervalos
+    # Adicionando um valor pequeno para que o ultimo valor entre no array resultante
+    intervals = np.arange(0, 1+0.00000001, Fe/n, dtype=float)  # define intervalos
     frequency = np.zeros(k)    # armazena a frequencia de cada valor
-    
+
     for value in results:
         for i in range(len(intervals)):
             if (i < len(intervals)-1):
@@ -31,6 +32,6 @@ def histGraph(resultVets, vals):
     plt.xticks(vals)
     plt.xlabel('Intervalos')
     plt.ylabel('Frequencia')
+    plt.tight_layout()
     plt.grid(True)
-    plt.plot(linewidth=1)
     plt.show()
