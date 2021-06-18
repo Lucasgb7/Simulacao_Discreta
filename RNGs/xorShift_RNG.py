@@ -11,7 +11,7 @@ def xorShift(y):
 
 if __name__ == "__main__":
     np.seterr(all='ignore')
-    seed = 2464581242
+    seed = 2463534242
     y = np.uint32(seed)
     #a, b, c = 13, 17, 15
     #iteracoes = 1000

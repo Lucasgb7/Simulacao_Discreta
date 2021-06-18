@@ -44,7 +44,7 @@ if __name__ == "__main__":
     n = np.uint64(input("Numero de iteracoes (n): "))
     k = int(input("Numero de categorias (k): "))
     gl = k - 1; print("Grau de Liberdade (GL): ", gl)
-    p = float(input("Probabilidade de sucesso: "))
+    #p = float(input("Probabilidade de sucesso: "))
                      
     results = []     
     
@@ -63,9 +63,10 @@ if __name__ == "__main__":
     print("================= RESULTADOS =================")
     #print("Media: ", hex(sum//n))
     #print("Tempo de simulacao: ", end - start)
-    pIndex = qi2.getProbabilityIndex(p)
-    x2Max = qi2.table[gl-1][pIndex]
-    print("x2Max: ", x2Max)
+    
+    #pIndex = qi2.getProbabilityIndex(p)
+    #x2Max = qi2.table[gl-1][pIndex]
+    #print("x2Max: ", x2Max)
     print("x2:" , x2)
      
     qi2.histGraph(results, intervals)
