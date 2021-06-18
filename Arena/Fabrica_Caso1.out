@@ -1,0 +1,66 @@
+
+                                      ARENA Simulation Results
+                                   Lucas Cunha - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 5/21/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/21/2021
+
+Replicação terminada no tempo de      : 24.0 Horas (Saturday, May 22, 2021, 09:14:13)
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Produto_A.VATime                            1.0810     (Insuf)    .54175     1.8984         15    
+Produto_A.NVATime                           .00000     (Insuf)    .00000     .00000         15    
+Produto_A.WaitTime                          3.5321     (Insuf)    .00000     5.9924         15    
+Produto_A.TranTime                          .00000     (Insuf)    .00000     .00000         15    
+Produto_A.OtherTime                         .00000     (Insuf)    .00000     .00000         15    
+Produto_A.TotalTime                         4.6131     (Insuf)    1.6721     7.0441         15    
+Produto_B.VATime                            1.1700     (Insuf)    .59468     1.7683          9    
+Produto_B.NVATime                           .00000     (Insuf)    .00000     .00000          9    
+Produto_B.WaitTime                          3.6546     (Insuf)    .92386     4.8820          9    
+Produto_B.TranTime                          .00000     (Insuf)    .00000     .00000          9    
+Produto_B.OtherTime                         .00000     (Insuf)    .00000     .00000          9    
+Produto_B.TotalTime                         4.8246     (Insuf)    2.5463     6.1928          9    
+REPARO.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000          4    
+INSPECAO.Queue.WaitingTime                  3.5907     (Insuf)    .00000     5.9924         25    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Produto_A.WIP                               3.6957     (Insuf)    .00000     7.0000     6.0000    
+Produto_B.WIP                               1.8415     (Insuf)    .00000     4.0000     1.0000    
+Reparar.NumberBusy                          .13591     (Insuf)    .00000     1.0000     .00000    
+Reparar.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Reparar.Utilization                         .13591     (Insuf)    .00000     1.0000     .00000    
+Inspecionar.NumberBusy                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Inspecionar.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspecionar.Utilization                     1.0000     (Insuf)    .00000     1.0000     1.0000    
+REPARO.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+INSPECAO.Queue.NumberInQueue                4.4013     (Insuf)    .00000     7.0000     6.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Produto_A.NumberIn                          21.000    
+Produto_A.NumberOut                         15.000    
+Produto_B.NumberIn                          10.000    
+Produto_B.NumberOut                         9.0000    
+Reparar.NumberSeized                        4.0000    
+Reparar.ScheduledUtilization                .13591    
+Inspecionar.NumberSeized                    25.000    
+Inspecionar.ScheduledUtilization            1.0000    
+System.NumberOut                            24.000    
+
+
+Tempo executando a simulação: 0.03 minutos.
+Simulação completada.

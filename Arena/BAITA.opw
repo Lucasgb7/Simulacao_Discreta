@@ -1,0 +1,26 @@
+[RESOURCES]
+CPU
+DISCO_1
+DISCO_2
+[VARIABLES]
+Cliente_ATM.NumberOut
+TempoAtualizacao.NumberIn
+TempoAtualizacao.NumberOut
+D1 ou D2? 2.NumberOut False
+D1 ou D2? 2.NumberOut True
+TempoConsulta.NumberOut
+TempoConsulta.NumberIn
+FIM.NumberOut
+Cliente_Caixa.NumberOut
+CON ou ATT?.NumberOut False
+CON ou ATT?.NumberOut True
+D1 ou D2?.NumberOut False
+D1 ou D2?.NumberOut True
+Atualizacao_D1.NumberOut
+Atualizacao_D2.NumberOut
+Atualizacao_D1.NumberIn
+Atualizacao_D2.NumberIn
+Consulta_D1.NumberIn
+Consulta_D2.NumberIn
+Consulta_D1.NumberOut
+Consulta_D2.NumberOut

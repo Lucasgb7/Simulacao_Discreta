@@ -1,0 +1,17 @@
+[RESOURCES]
+Novo_Disco
+CPU
+[VARIABLES]
+Cliente_ATM.NumberOut
+TempoAtualizacao.NumberIn
+TempoAtualizacao.NumberOut
+ND_Atualizacao.NumberOut
+ND_Atualizacao.NumberIn
+TempoConsulta.NumberOut
+TempoConsulta.NumberIn
+FIM.NumberOut
+Cliente_Caixa.NumberOut
+CON ou ATT?.NumberOut False
+CON ou ATT?.NumberOut True
+ND_Consulta.NumberIn
+ND_Consulta.NumberOut

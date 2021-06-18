@@ -1,0 +1,13 @@
+[RESOURCES]
+Reparar
+Inspecionar
+[VARIABLES]
+Passou na inspecao?.NumberOut True
+Passou na inspecao?.NumberOut False
+PRODUTO_A.NumberOut
+PRODUTO_B.NumberOut
+FIM.NumberOut
+INSPECAO.NumberIn
+INSPECAO.NumberOut
+REPARO.NumberOut
+REPARO.NumberIn

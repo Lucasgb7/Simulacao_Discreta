@@ -1,0 +1,96 @@
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 6/18/2021
+Analista: lucasgb7_ks@hotmail.com                                     Data de revisão do modelo: 6/18/2021
+
+Replicação terminada no tempo de      : 172800.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Transação_Caixa.VATime                      1.2055     .00523     .90000     1.9200      33228    
+Transação_Caixa.NVATime                     .00000     .00000     .00000     .00000      33228    
+Transação_Caixa.WaitTime                    4.2915     (Corr)     .00000     26.708      33228    
+Transação_Caixa.TranTime                    .00000     .00000     .00000     .00000      33228    
+Transação_Caixa.OtherTime                   .52004      4.3570E-4 .50000     .60000      33228    
+Transação_Caixa.TotalTime                   6.0172     (Corr)     1.4000     28.208      33228    
+Transação_ATM.VATime                        1.1903     .01098     .90000     1.9200       5579    
+Transação_ATM.NVATime                       .00000     .00000     .00000     .00000       5579    
+Transação_ATM.WaitTime                      .32351     .30223     .00000     23.358       5579    
+Transação_ATM.TranTime                      .00000     .00000     .00000     .00000       5579    
+Transação_ATM.OtherTime                     .32095     .00128     .30000     .40000       5579    
+Transação_ATM.TotalTime                     1.8348     .30220     1.2000     24.558       5579    
+TempoConsulta_3.Queue.WaitingTime           3.7019     (Corr)     .00000     24.905       9326    
+TempoConsulta_2.Queue.WaitingTime           3.6495     (Corr)     .00000     23.985       8936    
+TempoConsulta_1.Queue.WaitingTime           3.6333     (Corr)     .00000     25.808       9002    
+ND_Atualizacao_3.Queue.WaitingTime          .07639     .01158     .00000     3.1200       3903    
+TempoAtualizacao_3.Queue.WaitingTime        3.3397     (Corr)     .00000     22.619       3903    
+TempoAtualizacao_2.Queue.WaitingTime        3.2675     (Corr)     .00000     24.488       3816    
+TempoAtualizacao_1.Queue.WaitingTime        3.3171     (Corr)     .00000     25.265       3824    
+ND_Atualizacao_2.Queue.WaitingTime          .06475     .01076     .00000     2.4000       3816    
+ND_Consulta_1.Queue.WaitingTime             .19673     (Corr)     .00000     3.1200       9002    
+ND_Atualizacao_1.Queue.WaitingTime          .06983     .01363     .00000     2.8800       3824    
+ND_Consulta_3.Queue.WaitingTime             .21664     .02581     .00000     3.3000       9326    
+ND_Consulta_2.Queue.WaitingTime             .19796     .02355     .00000     2.8800       8936    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Transação_Caixa.WIP                         1.1570     (Corr)     .00000     63.000     .00000    
+Transação_ATM.WIP                           .05924     (Corr)     .00000     3.0000     .00000    
+Novo_Disco_3.NumberBusy                     .05760     (Corr)     .00000     1.0000     .00000    
+Novo_Disco_3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Novo_Disco_3.Utilization                    .05760     (Corr)     .00000     1.0000     .00000    
+Novo_Disco_2.NumberBusy                     .05575     (Corr)     .00000     1.0000     .00000    
+Novo_Disco_2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Novo_Disco_2.Utilization                    .05575     (Corr)     .00000     1.0000     .00000    
+Novo_Disco_1.NumberBusy                     .05601     (Corr)     .00000     1.0000     .00000    
+Novo_Disco_1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Novo_Disco_1.Utilization                    .05601     (Corr)     .00000     1.0000     .00000    
+CPU.NumberBusy                              .10089     (Corr)     .00000     1.0000     .00000    
+CPU.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+CPU.Utilization                             .10089     (Corr)     .00000     1.0000     .00000    
+TempoConsulta_3.Queue.NumberInQueue         .19979     (Corr)     .00000     16.000     .00000    
+TempoConsulta_2.Queue.NumberInQueue         .18873     (Corr)     .00000     18.000     .00000    
+TempoConsulta_1.Queue.NumberInQueue         .18928     (Corr)     .00000     19.000     .00000    
+ND_Atualizacao_3.Queue.NumberInQueue        .00173     (Corr)     .00000     3.0000     .00000    
+TempoAtualizacao_3.Queue.NumberInQueue      .07543     (Corr)     .00000     8.0000     .00000    
+TempoAtualizacao_2.Queue.NumberInQueue      .07216     (Corr)     .00000     8.0000     .00000    
+TempoAtualizacao_1.Queue.NumberInQueue      .07341     (Corr)     .00000     9.0000     .00000    
+ND_Atualizacao_2.Queue.NumberInQueue        .00143     (Corr)     .00000     2.0000     .00000    
+ND_Consulta_1.Queue.NumberInQueue           .01025     (Corr)     .00000     4.0000     .00000    
+ND_Atualizacao_1.Queue.NumberInQueue        .00155     (Corr)     .00000     3.0000     .00000    
+ND_Consulta_3.Queue.NumberInQueue           .01169     (Corr)     .00000     4.0000     .00000    
+ND_Consulta_2.Queue.NumberInQueue           .01024     (Corr)     .00000     4.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Transação_Caixa.NumberIn                    33228.    
+Transação_Caixa.NumberOut                   33228.    
+Transação_ATM.NumberIn                      5579.0    
+Transação_ATM.NumberOut                     5579.0    
+Novo_Disco_3.NumberSeized                   13229.    
+Novo_Disco_3.ScheduledUtilization           .05760    
+Novo_Disco_2.NumberSeized                   12752.    
+Novo_Disco_2.ScheduledUtilization           .05575    
+Novo_Disco_1.NumberSeized                   12826.    
+Novo_Disco_1.ScheduledUtilization           .05601    
+CPU.NumberSeized                            38807.    
+CPU.ScheduledUtilization                    .10089    
+System.NumberOut                            38807.    
+
+
+Tempo executando a simulação: 0.02 minutos.
+Simulação completada.

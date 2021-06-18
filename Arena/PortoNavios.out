@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                   Lucas Cunha - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 5/21/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/21/2021
+
+Replicação terminada no tempo de      : 8760.0 Horas (Saturday, May 21, 2022, 08:33:59)
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Navio.VATime                                5.9962     .08929     3.0966     9.7315       1148    
+Navio.NVATime                               .00000     .00000     .00000     .00000       1148    
+Navio.WaitTime                              10.384     2.0313     .00000     59.578       1148    
+Navio.TranTime                              .00000     .00000     .00000     .00000       1148    
+Navio.OtherTime                             .00000     .00000     .00000     .00000       1148    
+Navio.TotalTime                             16.380     2.0350     3.2093     65.501       1148    
+Descarregamento.Queue.WaitingTime           10.376     2.0313     .00000     59.578       1149    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Navio.WIP                                   2.1478     .34599     .00000     11.000     4.0000    
+Descarregador.NumberBusy                    .78648     .03684     .00000     1.0000     1.0000    
+Descarregador.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Descarregador.Utilization                   .78648     .03684     .00000     1.0000     1.0000    
+Descarregamento.Queue.NumberInQueue         1.3613     .31662     .00000     10.000     3.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Navio.NumberIn                              1152.0    
+Navio.NumberOut                             1148.0    
+Descarregador.NumberSeized                  1149.0    
+Descarregador.ScheduledUtilization          .78648    
+System.NumberOut                            1148.0    
+
+
+Tempo executando a simulação: 0.50 minutos.
+Simulação completada.

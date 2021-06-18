@@ -1,0 +1,61 @@
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 6/18/2021
+Analista: lucasgb7_ks@hotmail.com                                     Data de revisão do modelo: 6/18/2021
+
+Replicação terminada no tempo de      : 48.0 Horas 
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Transação.VATime                             1.1188E-4  7.5286E-7  8.3333E-5  1.7778E-4   7501    
+Transação.NVATime                           .00000     .00000     .00000     .00000       7501    
+Transação.WaitTime                           1.5338E-5 (Corr)     .00000      3.0393E-4   7501    
+Transação.TranTime                          .00000     .00000     .00000     .00000       7501    
+Transação.OtherTime                         .00000     .00000     .00000     .00000       7501    
+Transação.TotalTime                          1.2721E-4 (Corr)      8.3333E-5  4.8171E-4   7501    
+ND_Consulta.Queue.WaitingTime                8.2276E-6 (Corr)     .00000      1.9444E-4   5234    
+ND_Atualizacao.Queue.WaitingTime             3.8083E-6 (Corr)     .00000      1.8333E-4   2267    
+TempoConsulta.Queue.WaitingTime              8.4901E-6 (Corr)     .00000      1.4466E-4   5234    
+TempoAtualizacao.Queue.WaitingTime           8.3436E-6 (Corr)     .00000      1.2060E-4   2267    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Transação.WIP                               .01988     (Corr)     .00000     5.0000     .00000    
+Novo_Disco.NumberBusy                       .01096     (Corr)     .00000     1.0000     .00000    
+Novo_Disco.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Novo_Disco.Utilization                      .01096     (Corr)     .00000     1.0000     .00000    
+CPU.NumberBusy                              .00652     (Corr)     .00000     1.0000     .00000    
+CPU.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+CPU.Utilization                             .00652     (Corr)     .00000     1.0000     .00000    
+ND_Consulta.Queue.NumberInQueue              8.9715E-4 (Corr)     .00000     3.0000     .00000    
+ND_Atualizacao.Queue.NumberInQueue           1.7986E-4 (Insuf)    .00000     2.0000     .00000    
+TempoConsulta.Queue.NumberInQueue            9.2578E-4 (Corr)     .00000     3.0000     .00000    
+TempoAtualizacao.Queue.NumberInQueue         3.9406E-4 (Corr)     .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Transação.NumberIn                          7501.0    
+Transação.NumberOut                         7501.0    
+Novo_Disco.NumberSeized                     7501.0    
+Novo_Disco.ScheduledUtilization             .01096    
+CPU.NumberSeized                            7501.0    
+CPU.ScheduledUtilization                    .00652    
+System.NumberOut                            7501.0    
+
+
+Tempo executando a simulação: 0.28 minutos.
+Simulação completada.

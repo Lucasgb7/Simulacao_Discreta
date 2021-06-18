@@ -1,0 +1,57 @@
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+Replicação terminada no tempo de      : 8.0 Horas 
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+CURRICULO.VATime                            .17304     (Insuf)    .02252     .31835         65    
+CURRICULO.NVATime                           .00000     (Insuf)    .00000     .00000         65    
+CURRICULO.WaitTime                          1.2253     (Insuf)    .00000     3.5768         65    
+CURRICULO.TranTime                          .00000     (Insuf)    .00000     .00000         65    
+CURRICULO.OtherTime                         .00000     (Insuf)    .00000     .00000         65    
+CURRICULO.TotalTime                         1.3983     (Insuf)    .02466     3.7836         65    
+AVALIACAO.Queue.WaitingTime                 1.7075     (Insuf)    .00000     3.5621         47    
+LEITURA.Queue.WaitingTime                   .04042     (Insuf)    .00000     .21264        108    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+CURRICULO.WIP                               20.960     (Insuf)    .00000     46.000     45.000    
+Secretaria.NumberBusy                       .68575     (Insuf)    .00000     1.0000     1.0000    
+Secretaria.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Secretaria.Utilization                      .68575     (Insuf)    .00000     1.0000     1.0000    
+Orientador.NumberBusy                       .98715     (Insuf)    .00000     1.0000     1.0000    
+Orientador.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Orientador.Utilization                      .98715     (Insuf)    .00000     1.0000     1.0000    
+AVALIACAO.Queue.NumberInQueue               18.725     (Insuf)    .00000     41.000     41.000    
+LEITURA.Queue.NumberInQueue                 .56142     (Insuf)    .00000     4.0000     2.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+CURRICULO.NumberIn                          110.00    
+CURRICULO.NumberOut                         65.000    
+Secretaria.NumberSeized                     108.00    
+Secretaria.ScheduledUtilization             .68575    
+Orientador.NumberSeized                     47.000    
+Orientador.ScheduledUtilization             .98715    
+System.NumberOut                            65.000    
+
+
+Tempo executando a simulação: 0.10 minutos.
+Simulação completada.

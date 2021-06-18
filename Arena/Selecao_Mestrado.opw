@@ -1,0 +1,15 @@
+[RESOURCES]
+Secretaria
+Orientador
+[VARIABLES]
+LEITURA.NumberOut
+AVALIACAO.NumberIn
+COORDENADOR.NumberOut
+AVALIAR.NumberOut False
+EMAIL.NumberOut
+ARQUIVO.NumberOut
+REQUISITOS.NumberOut False
+AVALIACAO.NumberOut
+REQUISITOS.NumberOut True
+AVALIAR.NumberOut True
+LEITURA.NumberIn

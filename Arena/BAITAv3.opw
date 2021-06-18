@@ -1,0 +1,51 @@
+[RESOURCES]
+Novo_Disco_3
+Novo_Disco_2
+Novo_Disco_1
+CPU
+[VARIABLES]
+Cliente_ATM.NumberOut
+TempoAtualizacao_3.NumberIn
+TempoAtualizacao_2.NumberIn
+TempoAtualizacao_1.NumberIn
+CON ou ATT?_3.NumberOut True
+TempoConsulta_3.NumberIn
+TempoConsulta_2.NumberIn
+TempoConsulta_1.NumberIn
+Confirma?_3.NumberOut True
+Confirma?_2.NumberOut True
+Confirma?_1.NumberOut True
+ND_Consulta_1.NumberIn
+CON ou ATT?_1.NumberOut True
+Confirma?_3.NumberOut False
+Confirma?_2.NumberOut False
+Confirma?_1.NumberOut False
+ND_Consulta_3.NumberIn
+ND_Consulta_3.NumberOut
+CON ou ATT?_2.NumberOut False
+TempoConsulta_3.NumberOut
+TempoConsulta_2.NumberOut
+TempoConsulta_1.NumberOut
+ND_Consulta_2.NumberOut
+CON ou ATT?_2.NumberOut True
+ND_Consulta_2.NumberIn
+CP 1 ou 2?.NumberOut True
+CP 1 ou 3?.NumberOut True
+CP 2 ou 3?.NumberOut False
+FIM.NumberOut
+Cliente_Caixa.NumberOut
+CON ou ATT?_1.NumberOut False
+ND_Atualizacao_2.NumberOut
+TempoAtualizacao_3.NumberOut
+TempoAtualizacao_2.NumberOut
+TempoAtualizacao_1.NumberOut
+CON ou ATT?_3.NumberOut False
+ND_Atualizacao_2.NumberIn
+CP 1 ou 2?.NumberOut False
+CP 1 ou 3?.NumberOut False
+CP 2 ou 3?.NumberOut True
+ND_Atualizacao_3.NumberOut
+ND_Atualizacao_3.NumberIn
+ND_Atualizacao_1.NumberOut
+ND_Atualizacao_1.NumberIn
+ND_Consulta_1.NumberOut

@@ -1,0 +1,13 @@
+[RESOURCES]
+Pintar
+Inspecionar
+[VARIABLES]
+PINTURA.NumberOut
+Produto B?.NumberOut True
+PRODUTO_A.NumberOut
+PINTURA.NumberIn
+FIM.NumberOut
+PRODUTO_B.NumberOut
+INSPECAO.NumberIn
+INSPECAO.NumberOut
+Produto B?.NumberOut False

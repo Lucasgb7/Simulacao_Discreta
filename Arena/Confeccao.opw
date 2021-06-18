@@ -1,0 +1,15 @@
+[RESOURCES]
+Inspetor
+Costureira
+Cortador
+[VARIABLES]
+QUALIDADE.NumberOut False
+ESTOQUE.NumberOut
+COSTURA.NumberIn
+QUALIDADE.NumberOut True
+CORTE.NumberOut
+INSPECAO.NumberIn
+INSPECAO.NumberOut
+CORTE.NumberIn
+COSTURA.NumberOut
+PRODUCAO.NumberOut

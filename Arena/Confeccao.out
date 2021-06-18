@@ -1,0 +1,460 @@
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 7
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+Replicação terminada no tempo de      : 600.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+ROUPA.VATime                                40.600     (Insuf)    25.116     105.67         40    
+ROUPA.NVATime                               .00000     (Insuf)    .00000     .00000         40    
+ROUPA.WaitTime                              201.30     (Insuf)    .00000     391.47         40    
+ROUPA.TranTime                              7.3000     (Insuf)    6.0000     18.000         40    
+ROUPA.OtherTime                             .00000     (Insuf)    .00000     .00000         40    
+ROUPA.TotalTime                             249.20     (Insuf)    35.685     453.77         40    
+INSPECAO.Queue.WaitingTime                  .12736     (Insuf)    .00000     1.7283         53    
+CORTE.Queue.WaitingTime                     194.90     (Insuf)    .00000     389.50         40    
+COSTURA.Queue.WaitingTime                   4.7030     (Insuf)    .00000     16.861         53    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+ROUPA.WIP                                   16.613     (Insuf)    .00000     40.000     .00000    
+Inspetor.NumberBusy                         .17667     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .17667     (Insuf)    .00000     1.0000     .00000    
+Costureira.NumberBusy                       1.8653     (Insuf)    .00000     3.0000     .00000    
+Costureira.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Costureira.Utilization                      .62177     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberBusy                         .66470     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cortador.Utilization                        .66470     (Insuf)    .00000     1.0000     .00000    
+INSPECAO.Queue.NumberInQueue                .01125     (Insuf)    .00000     1.0000     .00000    
+CORTE.Queue.NumberInQueue                   12.993     (Insuf)    .00000     39.000     .00000    
+COSTURA.Queue.NumberInQueue                 .41543     (Insuf)    .00000     3.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+ROUPA.NumberIn                              40.000    
+ROUPA.NumberOut                             40.000    
+Inspetor.NumberSeized                       53.000    
+Inspetor.ScheduledUtilization               .17667    
+Costureira.NumberSeized                     53.000    
+Costureira.ScheduledUtilization             .62177    
+Cortador.NumberSeized                       40.000    
+Cortador.ScheduledUtilization               .66470    
+System.NumberOut                            40.000    
+
+Iniciando replicação 2 de 7
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 2 de 7
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+Replicação terminada no tempo de      : 600.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+ROUPA.VATime                                36.101     (Insuf)    24.846     99.767         40    
+ROUPA.NVATime                               .00000     (Insuf)    .00000     .00000         40    
+ROUPA.WaitTime                              198.15     (Insuf)    .00000     391.55         40    
+ROUPA.TranTime                              6.7000     (Insuf)    6.0000     18.000         40    
+ROUPA.OtherTime                             .00000     (Insuf)    .00000     .00000         40    
+ROUPA.TotalTime                             240.96     (Insuf)    53.138     434.25         40    
+INSPECAO.Queue.WaitingTime                  .19621     (Insuf)    .00000     2.9899         47    
+CORTE.Queue.WaitingTime                     197.31     (Insuf)    .00000     391.55         40    
+COSTURA.Queue.WaitingTime                   .52555     (Insuf)    .00000     5.8258         47    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+ROUPA.WIP                                   16.064     (Insuf)    .00000     40.000     .00000    
+Inspetor.NumberBusy                         .15667     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .15667     (Insuf)    .00000     1.0000     .00000    
+Costureira.NumberBusy                       1.5826     (Insuf)    .00000     3.0000     .00000    
+Costureira.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Costureira.Utilization                      .52756     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberBusy                         .66739     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cortador.Utilization                        .66739     (Insuf)    .00000     1.0000     .00000    
+INSPECAO.Queue.NumberInQueue                .01537     (Insuf)    .00000     2.0000     .00000    
+CORTE.Queue.NumberInQueue                   13.154     (Insuf)    .00000     39.000     .00000    
+COSTURA.Queue.NumberInQueue                 .04117     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+ROUPA.NumberIn                              40.000    
+ROUPA.NumberOut                             40.000    
+Inspetor.NumberSeized                       47.000    
+Inspetor.ScheduledUtilization               .15667    
+Costureira.NumberSeized                     47.000    
+Costureira.ScheduledUtilization             .52756    
+Cortador.NumberSeized                       40.000    
+Cortador.ScheduledUtilization               .66739    
+System.NumberOut                            40.000    
+
+Iniciando replicação 3 de 7
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 3 de 7
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+Replicação terminada no tempo de      : 600.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+ROUPA.VATime                                37.766     (Insuf)    26.022     102.90         40    
+ROUPA.NVATime                               .00000     (Insuf)    .00000     .00000         40    
+ROUPA.WaitTime                              190.87     (Insuf)    .00000     382.82         40    
+ROUPA.TranTime                              6.9000     (Insuf)    6.0000     18.000         40    
+ROUPA.OtherTime                             .00000     (Insuf)    .00000     .00000         40    
+ROUPA.TotalTime                             235.54     (Insuf)    43.438     424.16         40    
+INSPECAO.Queue.WaitingTime                  .11249     (Insuf)    .00000     1.5385         49    
+CORTE.Queue.WaitingTime                     189.53     (Insuf)    .00000     382.82         40    
+COSTURA.Queue.WaitingTime                   .98223     (Insuf)    .00000     10.357         49    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+ROUPA.WIP                                   15.703     (Insuf)    .00000     40.000     .00000    
+Inspetor.NumberBusy                         .16333     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .16333     (Insuf)    .00000     1.0000     .00000    
+Costureira.NumberBusy                       1.6999     (Insuf)    .00000     3.0000     .00000    
+Costureira.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Costureira.Utilization                      .56666     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberBusy                         .65445     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cortador.Utilization                        .65445     (Insuf)    .00000     1.0000     .00000    
+INSPECAO.Queue.NumberInQueue                .00919     (Insuf)    .00000     1.0000     .00000    
+CORTE.Queue.NumberInQueue                   12.635     (Insuf)    .00000     39.000     .00000    
+COSTURA.Queue.NumberInQueue                 .08022     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+ROUPA.NumberIn                              40.000    
+ROUPA.NumberOut                             40.000    
+Inspetor.NumberSeized                       49.000    
+Inspetor.ScheduledUtilization               .16333    
+Costureira.NumberSeized                     49.000    
+Costureira.ScheduledUtilization             .56666    
+Cortador.NumberSeized                       40.000    
+Cortador.ScheduledUtilization               .65445    
+System.NumberOut                            40.000    
+
+Iniciando replicação 4 de 7
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 4 de 7
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+Replicação terminada no tempo de      : 600.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+ROUPA.VATime                                38.429     (Insuf)    23.985     79.786         40    
+ROUPA.NVATime                               .00000     (Insuf)    .00000     .00000         40    
+ROUPA.WaitTime                              201.74     (Insuf)    .00000     402.61         40    
+ROUPA.TranTime                              7.0000     (Insuf)    6.0000     14.000         40    
+ROUPA.OtherTime                             .00000     (Insuf)    .00000     .00000         40    
+ROUPA.TotalTime                             247.17     (Insuf)    46.438     443.49         40    
+INSPECAO.Queue.WaitingTime                  .12146     (Insuf)    .00000     1.5978         50    
+CORTE.Queue.WaitingTime                     200.55     (Insuf)    .00000     398.57         40    
+COSTURA.Queue.WaitingTime                   .83159     (Insuf)    .00000     6.2631         50    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+ROUPA.WIP                                   16.478     (Insuf)    .00000     40.000     .00000    
+Inspetor.NumberBusy                         .16667     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .16667     (Insuf)    .00000     1.0000     .00000    
+Costureira.NumberBusy                       1.7134     (Insuf)    .00000     3.0000     .00000    
+Costureira.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Costureira.Utilization                      .57115     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberBusy                         .68185     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cortador.Utilization                        .68185     (Insuf)    .00000     1.0000     .00000    
+INSPECAO.Queue.NumberInQueue                .01012     (Insuf)    .00000     1.0000     .00000    
+CORTE.Queue.NumberInQueue                   13.370     (Insuf)    .00000     39.000     .00000    
+COSTURA.Queue.NumberInQueue                 .06930     (Insuf)    .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+ROUPA.NumberIn                              40.000    
+ROUPA.NumberOut                             40.000    
+Inspetor.NumberSeized                       50.000    
+Inspetor.ScheduledUtilization               .16667    
+Costureira.NumberSeized                     50.000    
+Costureira.ScheduledUtilization             .57115    
+Cortador.NumberSeized                       40.000    
+Cortador.ScheduledUtilization               .68185    
+System.NumberOut                            40.000    
+
+Iniciando replicação 5 de 7
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 5 de 7
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+Replicação terminada no tempo de      : 600.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+ROUPA.VATime                                34.503     (Insuf)    25.161     63.429         40    
+ROUPA.NVATime                               .00000     (Insuf)    .00000     .00000         40    
+ROUPA.WaitTime                              195.29     (Insuf)    .00000     387.03         40    
+ROUPA.TranTime                              6.5000     (Insuf)    6.0000     10.000         40    
+ROUPA.OtherTime                             .00000     (Insuf)    .00000     .00000         40    
+ROUPA.TotalTime                             236.29     (Insuf)    41.382     426.79         40    
+INSPECAO.Queue.WaitingTime                  .12051     (Insuf)    .00000     1.6955         45    
+CORTE.Queue.WaitingTime                     194.24     (Insuf)    .00000     387.03         40    
+COSTURA.Queue.WaitingTime                   .81261     (Insuf)    .00000     8.2543         45    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+ROUPA.WIP                                   15.753     (Insuf)    .00000     40.000     .00000    
+Inspetor.NumberBusy                         .15000     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .15000     (Insuf)    .00000     1.0000     .00000    
+Costureira.NumberBusy                       1.4900     (Insuf)    .00000     3.0000     .00000    
+Costureira.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Costureira.Utilization                      .49670     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberBusy                         .66012     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cortador.Utilization                        .66012     (Insuf)    .00000     1.0000     .00000    
+INSPECAO.Queue.NumberInQueue                .00904     (Insuf)    .00000     1.0000     .00000    
+CORTE.Queue.NumberInQueue                   12.949     (Insuf)    .00000     39.000     .00000    
+COSTURA.Queue.NumberInQueue                 .06095     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+ROUPA.NumberIn                              40.000    
+ROUPA.NumberOut                             40.000    
+Inspetor.NumberSeized                       45.000    
+Inspetor.ScheduledUtilization               .15000    
+Costureira.NumberSeized                     45.000    
+Costureira.ScheduledUtilization             .49670    
+Cortador.NumberSeized                       40.000    
+Cortador.ScheduledUtilization               .66012    
+System.NumberOut                            40.000    
+
+Iniciando replicação 6 de 7
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 6 de 7
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+Replicação terminada no tempo de      : 600.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+ROUPA.VATime                                36.328     (Insuf)    25.926     60.010         40    
+ROUPA.NVATime                               .00000     (Insuf)    .00000     .00000         40    
+ROUPA.WaitTime                              196.53     (Insuf)    .00000     391.40         40    
+ROUPA.TranTime                              6.5000     (Insuf)    6.0000     10.000         40    
+ROUPA.OtherTime                             .00000     (Insuf)    .00000     .00000         40    
+ROUPA.TotalTime                             239.35     (Insuf)    41.419     429.20         40    
+INSPECAO.Queue.WaitingTime                  .09252     (Insuf)    .00000     1.9861         45    
+CORTE.Queue.WaitingTime                     195.56     (Insuf)    .00000     391.40         40    
+COSTURA.Queue.WaitingTime                   .76592     (Insuf)    .00000     6.1121         45    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+ROUPA.WIP                                   15.957     (Insuf)    .00000     40.000     .00000    
+Inspetor.NumberBusy                         .15000     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .15000     (Insuf)    .00000     1.0000     .00000    
+Costureira.NumberBusy                       1.6020     (Insuf)    .00000     3.0000     .00000    
+Costureira.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Costureira.Utilization                      .53401     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberBusy                         .66984     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cortador.Utilization                        .66984     (Insuf)    .00000     1.0000     .00000    
+INSPECAO.Queue.NumberInQueue                .00694     (Insuf)    .00000     1.0000     .00000    
+CORTE.Queue.NumberInQueue                   13.037     (Insuf)    .00000     39.000     .00000    
+COSTURA.Queue.NumberInQueue                 .05744     (Insuf)    .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+ROUPA.NumberIn                              40.000    
+ROUPA.NumberOut                             40.000    
+Inspetor.NumberSeized                       45.000    
+Inspetor.ScheduledUtilization               .15000    
+Costureira.NumberSeized                     45.000    
+Costureira.ScheduledUtilization             .53401    
+Cortador.NumberSeized                       40.000    
+Cortador.ScheduledUtilization               .66984    
+System.NumberOut                            40.000    
+
+Iniciando replicação 7 de 7
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 7 de 7
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+Replicação terminada no tempo de      : 600.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+ROUPA.VATime                                41.849     (Insuf)    24.303     127.12         40    
+ROUPA.NVATime                               .00000     (Insuf)    .00000     .00000         40    
+ROUPA.WaitTime                              212.44     (Insuf)    .00000     396.27         40    
+ROUPA.TranTime                              7.6000     (Insuf)    6.0000     22.000         40    
+ROUPA.OtherTime                             .00000     (Insuf)    .00000     .00000         40    
+ROUPA.TotalTime                             261.89     (Insuf)    40.464     454.69         40    
+INSPECAO.Queue.WaitingTime                  .08408     (Insuf)    .00000     1.3474         56    
+CORTE.Queue.WaitingTime                     198.75     (Insuf)    .00000     395.92         40    
+COSTURA.Queue.WaitingTime                   9.6925     (Insuf)    .00000     28.143         56    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+ROUPA.WIP                                   17.459     (Insuf)    .00000     40.000     .00000    
+Inspetor.NumberBusy                         .18667     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .18667     (Insuf)    .00000     1.0000     .00000    
+Costureira.NumberBusy                       1.9269     (Insuf)    .00000     3.0000     .00000    
+Costureira.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Costureira.Utilization                      .64232     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberBusy                         .67638     (Insuf)    .00000     1.0000     .00000    
+Cortador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cortador.Utilization                        .67638     (Insuf)    .00000     1.0000     .00000    
+INSPECAO.Queue.NumberInQueue                .00785     (Insuf)    .00000     1.0000     .00000    
+CORTE.Queue.NumberInQueue                   13.250     (Insuf)    .00000     39.000     .00000    
+COSTURA.Queue.NumberInQueue                 .90464     (Insuf)    .00000     4.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+ROUPA.NumberIn                              40.000    
+ROUPA.NumberOut                             40.000    
+Inspetor.NumberSeized                       56.000    
+Inspetor.ScheduledUtilization               .18667    
+Costureira.NumberSeized                     56.000    
+Costureira.ScheduledUtilization             .64232    
+Cortador.NumberSeized                       40.000    
+Cortador.ScheduledUtilization               .67638    
+System.NumberOut                            40.000    
+
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                               Resumo de resultados para 7 Replicações
+
+Projeto: Unnamed Project                                             Data da execução : 5/28/2021
+Analista: Lucas Cunha                                                 Data de revisão do modelo: 5/28/2021
+
+
+                                             RESULTADOS
+
+Identificador                                 Média    Meia-largura Mínima    Maximo # de Replicações
+___________________________________________________________________________________________________
+
+ROUPA.NumberIn                              40.000     .00000     40.000     40.000     7
+ROUPA.NumberOut                             40.000     .00000     40.000     40.000     7
+Inspetor.NumberSeized                       49.285     3.8026     45.000     56.000     7
+Inspetor.ScheduledUtilization               .16429     .01268     .15000     .18667     7
+Costureira.NumberSeized                     49.285     3.8026     45.000     56.000     7
+Costureira.ScheduledUtilization             .56574     .04815     .49670     .64232     7
+Cortador.NumberSeized                       40.000     .00000     40.000     40.000     7
+Cortador.ScheduledUtilization               .66782     .00863     .65445     .68185     7
+System.NumberOut                            40.000     .00000     40.000     40.000     7
+
+Tempo executando a simulação: 0.12 minutos.
+Simulação completada.

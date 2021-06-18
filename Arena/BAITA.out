@@ -1,0 +1,70 @@
+
+                                      ARENA Simulation Results
+                             lucasgb7_ks@hotmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 6/12/2021
+Analista: lucasgb7_ks@hotmail.com                                     Data de revisão do modelo: 6/12/2021
+
+Replicação terminada no tempo de      : 48.0 Horas 
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Transação.VATime                             1.7156E-4  1.8700E-6  1.2500E-4  3.0556E-4   7344    
+Transação.NVATime                           .00000     .00000     .00000     .00000       7344    
+Transação.WaitTime                           1.6216E-5 (Corr)     .00000      3.0544E-4   7344    
+Transação.TranTime                          .00000     .00000     .00000     .00000       7344    
+Transação.OtherTime                          1.0306E-4 (Corr)      8.3333E-5  1.3889E-4   7344    
+Transação.TotalTime                          2.9084E-4 (Corr)      2.0833E-4  7.4988E-4   7344    
+Consulta_D1.Queue.WaitingTime                6.7538E-6 (Corr)     .00000      2.1147E-4   1531    
+Consulta_D2.Queue.WaitingTime                3.3504E-6 (Corr)     .00000      1.1111E-4   3549    
+TempoConsulta.Queue.WaitingTime              1.1977E-5 (Corr)     .00000      1.8736E-4   5080    
+TempoAtualizacao.Queue.WaitingTime           1.2292E-5 (Corr)     .00000      2.0547E-4   2264    
+Atualizacao_D1.Queue.WaitingTime             5.2792E-6 (Corr)     .00000      1.3889E-4   1358    
+Atualizacao_D2.Queue.WaitingTime             1.1184E-6  5.2295E-7 .00000      9.7222E-5    906    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Transação.WIP                               .04450     (Corr)     .00000     5.0000     .00000    
+CPU.NumberBusy                              .00981     (Corr)     .00000     1.0000     .00000    
+CPU.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+CPU.Utilization                             .00981     (Corr)     .00000     1.0000     .00000    
+DISCO_1.NumberBusy                          .00895     (Corr)     .00000     1.0000     .00000    
+DISCO_1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+DISCO_1.Utilization                         .00895     (Corr)     .00000     1.0000     .00000    
+DISCO_2.NumberBusy                          .00749     (Corr)     .00000     1.0000     .00000    
+DISCO_2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+DISCO_2.Utilization                         .00749     (Corr)     .00000     1.0000     .00000    
+Consulta_D1.Queue.NumberInQueue              2.1542E-4 (Insuf)    .00000     2.0000     .00000    
+Consulta_D2.Queue.NumberInQueue              2.4772E-4 (Corr)     .00000     2.0000     .00000    
+TempoConsulta.Queue.NumberInQueue           .00127     (Corr)     .00000     3.0000     .00000    
+TempoAtualizacao.Queue.NumberInQueue         5.7977E-4 (Corr)     .00000     2.0000     .00000    
+Atualizacao_D1.Queue.NumberInQueue           1.4936E-4 (Insuf)    .00000     1.0000     .00000    
+Atualizacao_D2.Queue.NumberInQueue           2.1110E-5 (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Transação.NumberIn                          7344.0    
+Transação.NumberOut                         7344.0    
+CPU.NumberSeized                            7344.0    
+CPU.ScheduledUtilization                    .00981    
+DISCO_1.NumberSeized                        2889.0    
+DISCO_1.ScheduledUtilization                .00895    
+DISCO_2.NumberSeized                        4455.0    
+DISCO_2.ScheduledUtilization                .00749    
+System.NumberOut                            7344.0    
+
+
+Tempo executando a simulação: 0.28 minutos.
+Simulação completada.
